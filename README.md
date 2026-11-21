@@ -12,7 +12,7 @@ VELMORA — a vintage travel poster for a place that isn't there. A fictional ar
 python3 main.py
 ```
 
-Writes the poster to `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR/entry.png`), a 1024×1024 PNG under 1 MiB. Pure Python standard library, no network.
+Writes the poster to `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR/entry.png`), a 1024×1024 PNG under 1 MiB. The artwork ships as `poster.jpg` next to `main.py`; `main.py` copies it to the output path byte-for-byte. Pure Python standard library, no network.
 
 ---
 
